@@ -1,0 +1,34 @@
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+local ScreenGui = Instance.new("ScreenGui")
+local Frame = Instance.new("Frame")
+local TextLabel = Instance.new("TextLabel")
+
+--Properties:
+
+ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+Frame.Parent = ScreenGui
+Frame.BackgroundColor3 = Color3.fromRGB(354, 55, 100)
+Frame.BackgroundTransparency = 1.000
+Frame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Frame.BorderSizePixel = 0
+Frame.Position = UDim2.new(0.375751495, 0, 0, 0)
+Frame.Size = UDim2.new(0, 248, 0, 62)
+
+TextLabel.Parent = Frame
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.BorderSizePixel = 0
+TextLabel.Position = UDim2.new(1.27419353, 0, 0.348330587, 0)
+TextLabel.Size = UDim2.new(0, 474, 0, 59)
+TextLabel.Font = Enum.Font.FredokaOne
+TextLabel.Text = "CS+ v4"
+TextLabel.TextColor3 = Color3.fromRGB(500, 10, 10)
+TextLabel.TextSize = 50.000
+TextLabel.TextWrapped = true
